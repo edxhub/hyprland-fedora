@@ -20,7 +20,7 @@ BuildRequires:  cmake(Qt6Widgets)
 BuildRequires:  qt6-qtbase-private-devel
 BuildRequires:  wayland-devel
 BuildRequires:  pkgconfig(hyprutils)
-BuildRequires:  pkgconfig(ibpci)
+BuildRequires:  pkgconfig(libpci)
 
 Requires:       /usr/bin/lscpu
 Requires:       /usr/bin/lspci
