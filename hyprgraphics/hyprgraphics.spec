@@ -12,8 +12,8 @@ ExcludeArch:    %{ix86}
 
 BuildRequires:  cmake
 BuildRequires:  gcc-c++
-BuildRequires:  libglnvd-egl
-BuildRequires:  libglnvd-gles
+BuildRequires:  libglvnd-egl
+BuildRequires:  libglvnd-gles
 
 BuildRequires:  pkgconfig(cairo)
 BuildRequires:  pkgconfig(hyprutils)
@@ -28,7 +28,7 @@ BuildRequires:  pkgconfig(libjxl)
 BuildRequires:  pkgconfig(libmagic)
 BuildRequires:  pkgconfig(libwebp)
 BuildRequires:  pkgconfig(pixman-1)
-BuildRequires:  pkgconfig(libglnvd)
+BuildRequires:  pkgconfig(libglvnd)
 BuildRequires:  pkgconfig(libpng)
 BuildRequires:  pkgconfig(pangocairo)
 BuildRequires:  pkgconfig(libheif)
