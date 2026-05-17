@@ -1,10 +1,11 @@
 Name:           hyprland-qt-support
 Version:        0.1.0
-Release:        %autorelease
+Release:        %autorelease -b2
 Summary:        A Qt6 Qml style provider for hypr* apps
 License:        BSD-3-Clause
 URL:            https://github.com/hyprwm/hyprland-qt-support
 Source:         %{url}/archive/v%{version}/%{name}-%{version}.tar.gz
+Patch:         cmake.patch
 
 # https://fedoraproject.org/wiki/Changes/EncourageI686LeafRemoval
 ExcludeArch:    %{ix86}
@@ -27,7 +28,6 @@ BuildRequires:  pkgconfig(hyprlang)
 
 %build
 %cmake -DINSTALL_QMLDIR=%{_qt6_qmldir} \
-                -DCMAKE_INSTALL_LIBDIR=lib64 \
                 -DCMAKE_BUILD_TYPE=Release
 %cmake_build
 
