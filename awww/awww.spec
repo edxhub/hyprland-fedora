@@ -47,7 +47,7 @@ install -Dpm644 ./doc/generated/*.1 -t %{buildroot}%{_mandir}/man1
 %doc README.md
 %{_bindir}/%{name}
 %{_bindir}/%{name}-daemon
-%{_mandir}/man1/swww*.1.*
+%{_mandir}/man1/%{name}*.1.*
 %{bash_completions_dir}/%{name}
 %{fish_completions_dir}/%{name}.fish
 %{zsh_completions_dir}/_%{name}
