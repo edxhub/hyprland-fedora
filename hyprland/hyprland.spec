@@ -20,7 +20,7 @@ BuildRequires: cmake
 BuildRequires: flex
 BuildRequires: gcc-c++
 BuildRequires: glaze-static
-#BuildRequires: libeis
+BuildRequires: libei-devel
 BuildRequires: libX11-devel
 BuildRequires: libxml2-devel
 BuildRequires: meson
