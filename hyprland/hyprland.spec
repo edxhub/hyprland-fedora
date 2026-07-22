@@ -20,7 +20,7 @@ BuildRequires: cmake
 BuildRequires: flex
 BuildRequires: gcc-c++
 BuildRequires: glaze-static
-BuildRequires: libeis
+#BuildRequires: libeis
 BuildRequires: libX11-devel
 BuildRequires: libxml2-devel
 BuildRequires: meson
@@ -43,6 +43,7 @@ BuildRequires: pkgconfig(hyprwire)
 BuildRequires: pkgconfig(lcms2)
 BuildRequires: pkgconfig(libdisplay-info)
 BuildRequires: pkgconfig(libdrm)
+BuildRequires: pkgconfig(libei)
 BuildRequires: pkgconfig(libinput) >= 1.28
 BuildRequires: pkgconfig(libliftoff)
 BuildRequires: pkgconfig(libseat)
