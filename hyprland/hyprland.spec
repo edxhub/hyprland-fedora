@@ -43,7 +43,6 @@ BuildRequires: pkgconfig(hyprwire)
 BuildRequires: pkgconfig(lcms2)
 BuildRequires: pkgconfig(libdisplay-info)
 BuildRequires: pkgconfig(libdrm)
-BuildRequires: pkgconfig(libei)
 BuildRequires: pkgconfig(libinput) >= 1.28
 BuildRequires: pkgconfig(libliftoff)
 BuildRequires: pkgconfig(libseat)
