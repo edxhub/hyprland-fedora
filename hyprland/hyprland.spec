@@ -19,12 +19,12 @@ BuildRequires: byacc
 BuildRequires: cmake
 BuildRequires: flex
 BuildRequires: gcc-c++
-BuildRequires: libX11-devel
-BuildRequires:  libxml2-devel
-BuildRequires: meson
 BuildRequires: glaze-static
+BuildRequires: libeis
 BuildRequires: libX11-devel
-BuildRequires:  xkeyboard-config-devel
+BuildRequires: libxml2-devel
+BuildRequires: meson
+BuildRequires: xkeyboard-config-devel
 
 BuildRequires: pkgconfig(aquamarine)
 BuildRequires: pkgconfig(cairo)
@@ -43,7 +43,6 @@ BuildRequires: pkgconfig(hyprwire)
 BuildRequires: pkgconfig(lcms2)
 BuildRequires: pkgconfig(libdisplay-info)
 BuildRequires: pkgconfig(libdrm)
-BuildRequires: pkgconfig(libeis)
 BuildRequires: pkgconfig(libinput) >= 1.28
 BuildRequires: pkgconfig(libliftoff)
 BuildRequires: pkgconfig(libseat)
@@ -77,8 +76,8 @@ BuildRequires: pkgconfig(xcb-xinput)
 BuildRequires: pkgconfig(xcb)
 BuildRequires: pkgconfig(xcursor)
 BuildRequires: pkgconfig(xwayland)
-BuildRequires:  pkgconfig(xcb-xkb)
-BuildRequires:  pkgconfig(xkbcommon)
+BuildRequires: pkgconfig(xcb-xkb)
+BuildRequires: pkgconfig(xkbcommon)
 
 Requires:       xorg-x11-server-Xwayland
 Requires:       aquamarine
